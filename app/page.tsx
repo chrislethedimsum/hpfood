@@ -19,7 +19,7 @@ export default function Home() {
 
     if (window.innerWidth > 992) {
       $(".navbar .nav-item")
-        .on("mouseover", function () {
+        .on("mouseover", function (this: HTMLElement) {
           const el_link = this.querySelector("a[data-bs-toggle]");
           if (el_link) {
             const nextEl = el_link.nextElementSibling as HTMLElement | null;
@@ -27,7 +27,7 @@ export default function Home() {
             nextEl?.classList.add("show");
           }
         })
-        .on("mouseleave", function () {
+        .on("mouseleave", function (this: HTMLElement) {
           const el_link = this.querySelector("a[data-bs-toggle]");
           if (el_link) {
             const nextEl = el_link.nextElementSibling as HTMLElement | null;
@@ -230,46 +230,27 @@ export default function Home() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  tile="Lựa chọn ngôn ngữ"
+                  title="Lựa chọn ngôn ngữ"
                 >
                   <img src="imgs/icons/flags/vi.svg" height="18" alt="Lựa chọn quốc gia" />
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a rel="nofollow noopener" className="dropdown-item" rel="alternate" hrefLang="en" href="en" title="English">
+                    <a rel="nofollow noopener alternate" className="dropdown-item" hrefLang="en" href="en" title="English">
                       <img src="imgs/icons/flags/en.svg" className="lang-ico" alt="English" height="18" />
                       English
                     </a>
                   </li>
                   <li>
                     <a
-                      rel="nofollow noopener"
+                      rel="nofollow noopener alternate"
                       className="dropdown-item"
-                      rel="alternate"
                       hrefLang="vi"
                       href="vi/su-khac-biet"
                       title="Tiếng Việt"
                     >
                       <img src="imgs/icons/flags/vi.svg" className="lang-ico" alt="Tiếng Việt" height="18" />
                       Tiếng Việt
-                    </a>
-                  </li>
-                  <li>
-                    <a rel="nofollow noopener" className="dropdown-item" rel="alternate" hrefLang="ja" href="ja" title="日本語">
-                      <img src="imgs/icons/flags/ja.svg" className="lang-ico" alt="日本語" height="18" />
-                      日本語
-                    </a>
-                  </li>
-                  <li>
-                    <a rel="nofollow noopener" className="dropdown-item" rel="alternate" hrefLang="zh" href="zh" title="简体中文">
-                      <img src="imgs/icons/flags/zh.svg" className="lang-ico" alt="简体中文" height="18" />
-                      简体中文
-                    </a>
-                  </li>
-                  <li>
-                    <a rel="nofollow noopener" className="dropdown-item" rel="alternate" hrefLang="ko" href="ko" title="한국어">
-                      <img src="imgs/icons/flags/ko.svg" className="lang-ico" alt="한국어" height="18" />
-                      한국어
                     </a>
                   </li>
                 </ul>

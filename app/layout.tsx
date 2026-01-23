@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import '@/app/ui/social_btns.css';
 import '@/app/ui/bootstrap-5.1.1/css/bootstrap.min.css';
@@ -16,10 +16,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport: Viewport = {
+  themeColor: "#ED1D24",
+};
+
 export const metadata: Metadata = {
   title: "Dịch vụ cung cấp suất ăn công nghiệp【Uy tín, Chất lượng ™】",
   description: "Đơn vị cung cấp suất ăn công nghiệp chất lượng Hạnh Phúc , suất ăn trường học, suất ăn văn phòng, setup hệ thống bếp công nghiệp, cung cấp thực phẩm sạch Uy tín, Chất lượng, Giá thành hợp lý.",
-  "theme-color": "#ED1D24"
 };
 
 export default function RootLayout({
