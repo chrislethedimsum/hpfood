@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="vi">
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5Q4GTFGP');</script>
+	<!-- End Google Tag Manager -->
+
+    
+
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow"/>
+<meta name="google-site-verification" content="eONTTMbHUBjicotZjVMAUTlArTJSr9RM6Fe59nCF56M" />
+    <link rel="stylesheet" href="../assets/bootstrap-5.1.1/css/bootstrap.min.css?v=1.1.7">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css?v=1.1.7">
+    <link rel="stylesheet" href="../assets/css/social_btns.css?v=1.1.7">
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="../assets/imgs/logo/stavi-logo-180.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../assets/imgs/logo/stavi-logo-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../assets/imgs/logo/stavi-logo-16.png">
+	<meta name="theme-color" content="#ED1D24" />
+    <link rel="shortcut icon" href="../assets/imgs/logo/stavi-logo-142.png" />
+    <link rel="apple-touch-icon" href="../assets/imgs/logo/stavi-logo-142.png" />
+
+    	
+	<script src="https://s1.what-on.com/widget/service.js?key=O4YdlDmz&amp;v=7" async="async"></script>
+</head>
+<body>
+	
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Q4GTFGP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top fixed" id="primary-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="../index.html" title="Suất ăn công nghiệp STAVI"><img
+                src="../assets/imgs/logo-h.png" alt="Suất ăn công nghiệp STAVI"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page"
+                        href="../index.html">Trang chủ</a>
+                </li>
+
+                
+                
+                                                    <li class="nav-item dropdown lang-menu">
+                        <a class="nav-link active dropdown-toggle text-uppercase"
+                            href="gioi-thieu#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" title="Giới thiệu">
+                            Giới thiệu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                            <li>
+                                    <a class="dropdown-item active"
+                                        href="gioi-thieu"
+                                        title="Lời nói đầu">Lời nói đầu</a>
+                                </li>
+                                                            <li>
+                                    <a class="dropdown-item "
+                                        href="https://stavi.com.vn/vi/gioi-thieu/Tam-nhin-su-menh.html"
+                                        title="Tầm nhìn sứ mệnh">Tầm nhìn sứ mệnh</a>
+                                </li>
+                                                            <li>
+                                    <a class="dropdown-item "
+                                        href="https://stavi.com.vn/vi/gioi-thieu/Gia-tri-cot-loi.html"
+                                        title="Giá trị cốt lõi">Giá trị cốt lõi</a>
+                                </li>
+                                                            <li>
+                                    <a class="dropdown-item "
+                                        href="https://stavi.com.vn/vi/gioi-thieu/So-do-to-chuc.html"
+                                        title="Sơ đồ tổ chức">Sơ đồ tổ chức</a>
+                                </li>
+                                                            <li>
+                                    <a class="dropdown-item "
+                                        href="https://stavi.com.vn/vi/gioi-thieu/Quy-mo-STAVI.html"
+                                        title="Quy mô STAVI">Quy mô STAVI</a>
+                                </li>
+                                                            <li>
+                                    <a class="dropdown-item "
+                                        href="https://stavi.com.vn/vi/gioi-thieu/Chung-chi-chat-luong-bao-hiem.html"
+                                        title="Chứng chỉ chất lượng, bảo hiểm">Chứng chỉ chất lượng, bảo hiểm</a>
+                                </li>
+                            
+                        </ul>
+                    </li>
+                
+                
+                                                    <li class="nav-item dropdown lang-menu">
+                        <a class="nav-link  dropdown-toggle text-uppercase"
+                            href="dich-vu" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dịch vụ
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                            <li>
+                                    <a class="dropdown-item "
+                                        href="dich-vu"
+                                        title="Cung cấp suất ăn công nghiệp">Cung cấp suất ăn công nghiệp</a>
+                                </li>
+                                                            <li>
+                                    <a class="dropdown-item "
+                                        href="dich-vu/Dich-vu-nha-hang.html"
+                                        title="Dịch vụ nhà hàng">Dịch vụ nhà hàng</a>
+                                </li>
+                                                            <li>
+                                    <a class="dropdown-item "
+                                        href="dich-vu/Dich-vu-cung-cap-thuc-pham.html"
+                                        title="Dịch vụ cung cấp thực phẩm">Dịch vụ cung cấp thực phẩm</a>
+                                </li>
+                                                            <li>
+                                    <a class="dropdown-item "
+                                        href="dich-vu/Setup-he-thong-bep-cong-nghiep.html"
+                                        title="Setup hệ thống bếp công nghiệp">Setup hệ thống bếp công nghiệp</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                
+                
+                
+
+                <li class="nav-item dropdown lang-menu">
+                    <a class="nav-link  dropdown-toggle text-uppercase"
+                        href="tin-tuc/CHE-DO-DAI-NGO-CUA-CONG-TY-STAVI-DOI-VOI-NH-N-VIEN-CO-TOT-KHONG.html" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Tin tức
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item "
+                                href="tin-tuc/CHE-DO-DAI-NGO-CUA-CONG-TY-STAVI-DOI-VOI-NH-N-VIEN-CO-TOT-KHONG.html"
+                                title="Tin tức">Tin tức</a>
+
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item "
+                                href="tuyen-dung"
+                                title="Tuyển dụng">Tuyển dụng</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                
+
+
+                <li class="nav-item ">
+                    <a class="nav-link "
+                        href="khach-hang"
+                        title="Khách hàng">Khách hàng</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link "
+                        href="lien-he"
+                        title="Liên hệ">Liên hệ</a>
+                </li>
+            </ul>
+            <div class="d-flex">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown lang-menu">
+                        <a rel="nofollow noopener" class="nav-link dropdown-toggle text-uppercase" href="gioi-thieu#"
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                            tile="Lựa chọn ngôn ngữ">
+                            <img src="../assets/imgs/icons/flags/vi.svg"
+                                height="18" alt="Lựa chọn quốc gia">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                            <li>
+                                    <a rel="nofollow noopener" class="dropdown-item" rel="alternate"
+                                        hreflang="en"
+                                        href="../en"
+                                        title="English">
+                                        <img src="../assets/imgs/icons/flags/en.svg"
+                                            class="lang-ico" alt="English" height="18">
+                                        English
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a rel="nofollow noopener" class="dropdown-item" rel="alternate"
+                                        hreflang="vi"
+                                        href="su-khac-biet"
+                                        title="Tiếng Việt">
+                                        <img src="../assets/imgs/icons/flags/vi.svg"
+                                            class="lang-ico" alt="Tiếng Việt" height="18">
+                                        Tiếng Việt
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a rel="nofollow noopener" class="dropdown-item" rel="alternate"
+                                        hreflang="ja"
+                                        href="../ja"
+                                        title="日本語">
+                                        <img src="../assets/imgs/icons/flags/ja.svg"
+                                            class="lang-ico" alt="日本語" height="18">
+                                        日本語
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a rel="nofollow noopener" class="dropdown-item" rel="alternate"
+                                        hreflang="zh"
+                                        href="../zh"
+                                        title="简体中文">
+                                        <img src="../assets/imgs/icons/flags/zh.svg"
+                                            class="lang-ico" alt="简体中文" height="18">
+                                        简体中文
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a rel="nofollow noopener" class="dropdown-item" rel="alternate"
+                                        hreflang="ko"
+                                        href="../ko"
+                                        title="한국어">
+                                        <img src="../assets/imgs/icons/flags/ko.svg"
+                                            class="lang-ico" alt="한국어" height="18">
+                                        한국어
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="section section-top section-full">
+    <div id="carousel-main-slide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-inner">
+                                                                                                                            <div class="carousel-item active">
+                                                            <img src="../storage/image/452/TCzoGzAnpxpO6jAtuLJ24rQHf4hkwgwtTJZ0QM3O.jpeg" alt="Quốc khánh 2.9"
+                                    class="d-block w-100">
+                                                    </div>
+                                                                                                        <div class="carousel-item ">
+                                                            <img src="../storage/image/349/HPMSFCcwSsAKq6A8crfk2Lu4IIWm8NqwITKHAvs0.png" alt="chúc mừng năm mới 2024"
+                                    class="d-block w-100">
+                                                    </div>
+                                                                                                        <div class="carousel-item ">
+                                                            <img src="../storage/image/379/GoWAbjEhGPyjAYzYuKR87o5xfs62rdrxvDAfu1Bb.png" alt="STAVI - Dịch vụ cung cấp suất ăn công nghiệp tại Sơn La hàng đầu"
+                                    class="d-block w-100">
+                                                    </div>
+                                                                                                        <div class="carousel-item ">
+                                                            <img src="../storage/image/438/hNRHev1y1SaRbXOq9t3Qhqm5WdyugUHC41BZX8xA.png" alt="Công ty suất ăn công nghiệp"
+                                    class="d-block w-100">
+                                                    </div>
+                                                                                                        <div class="carousel-item ">
+                                                            <img src="../storage/image/393/uLz0aG6uUh5IBQsPYTCvIETahaNJlFSHsxmdnDRm.jpeg" alt="Suất ăn công nghiệp Stavi"
+                                    class="d-block w-100">
+                                                    </div>
+                                                                                                        <div class="carousel-item ">
+                                                            <img src="../storage/image/151/Ji0sZiSR6KFVaowEroYNfKxtKmPOj6J33aIyKuQO.jpeg" alt="Banner Suất ăn công nghiệp Stavi"
+                                    class="d-block w-100">
+                                                    </div>
+                                                                                                        <div class="carousel-item ">
+                                                            <a href="gioi-thieu#" target="_blank" title="Banner 1 Suất ăn công nghiệp Stavi">
+                                    <img src="../storage/image/394/zIyWA6UipcDlJK9yuWYqd8xR3BWKle8itQU8L5xa.jpeg" alt="Banner 1 Suất ăn công nghiệp Stavi"
+                                        class="d-block w-100">
+                                </a>
+                                                    </div>
+                                                                                                        <div class="carousel-item ">
+                                                            <img src="../storage/image/430/8lt0AurmamXDdjPoV80ixMsFhfSrjj1B8JUw35Up.jpeg" alt="Bò tơ quán mộc"
+                                    class="d-block w-100">
+                                                    </div>
+                                                        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-main-slide"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-main-slide"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</section>
+
+
+    <section class="section news-view">
+        <div class="container">
+            <div class="section-body text-justify">
+
+                                    <h1 class="section-title">Lời nói đầu</h1>
+                    <p><strong>CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI DỊCH VỤ SAO VIỆT NAM (STAVI CO., LTD)</strong> là một trong những công ty hàng đầu về lĩnh vực thực phẩm, suất ăn công nghiệp tại Việt Nam.<br />
+Với phương thức cung cấp trọn gói bao gồm dịch vụ cung cấp suất ăn công nghiệp, dịch vụ cung cấp thực phẩm cho khách hàng và đồng thời cung cấp trang thiết bị bếp ăn. Chúng tôi tập trung vào nguồn lực từ đội ngũ nhân sự chất lượng, được đào tạo bài bản và có nhiều năm kinh nghiệm trong lĩnh vực, đến hệ thống trang thiết bị hiện đại, để tự tin mang đến cho khách hàng dịch vụ chuyên nghiệp nhất, chất lượng nhất với mức chi phí tối ưu nhất.</p>
+
+<p>STAVI vinh dự được trở thành đối tác thân thiết và lâu năm của các đơn vị có quy mô lớn trong nước, đồng thời nhận được sự ghi nhận và đánh giá cao từ phía đối tác cả về Chất Lượng và Dịch Vụ, có thể kể đến như: Công ty TNHH Điện tử Canon Việt Nam, Công ty TNHH Điện tử Taisei Việt Nam, Công ty TNHH Thiết bị Công nghiệp Toyota Việt Nam, Công Ty TNHH Công Nghệ Nissei Việt Nam, Công Ty TNHH Scancom Việt Nam – Chi Nhánh Mêkong, Nhà Máy Sữa đậu nành Vinasoy Bình Dương,...</p>
+
+<p>Tập trung vào chất lượng và luôn có quy trình kiểm soát khắt khe để mang đến dịch vụ hoàn hảo nhất cho Quý khách hàng, Stavi đã được cơ quan quản lý có thẩm quyền cấp Giấy chứng nhận về vệ sinh an toàn thực phẩm, đạt tiêu chuẩn <strong>ISO 22000:2018</strong> - Tiêu chuẩn quốc tế về hệ thống quản lý an toàn thực phẩm và mua bảo hiểm cho mỗi suất ăn Stavi cung cấp. Hiện tại Stavi có thể đáp ứng mọi nhu cầu về các dịch vụ cung cấp suất ăn công nghiệp cho Quý đối tác.</p>
+                
+                                    <ul class="list-unstyled other-post ">
+                                                    <li><a href="https://stavi.com.vn/vi/gioi-thieu/Tam-nhin-su-menh.html">Tầm nhìn sứ mệnh</a></li>
+                                                    <li><a href="https://stavi.com.vn/vi/gioi-thieu/Gia-tri-cot-loi.html">Giá trị cốt lõi</a></li>
+                                                    <li><a href="https://stavi.com.vn/vi/gioi-thieu/So-do-to-chuc.html">Sơ đồ tổ chức</a></li>
+                                                    <li><a href="https://stavi.com.vn/vi/gioi-thieu/Quy-mo-STAVI.html">Quy mô STAVI</a></li>
+                                                    <li><a href="https://stavi.com.vn/vi/gioi-thieu/Chung-chi-chat-luong-bao-hiem.html">Chứng chỉ chất lượng, bảo hiểm</a></li>
+                                            </ul>
+                            </div>
+        </div>
+    </section>
+
+
+<footer class="text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col col-01 site-info">
+                <div class="name">
+                    CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI DỊCH VỤ SAO VIỆT NAM
+                </div>
+                <div class="address">
+                    Điện thoại: <a
+                            href="tel:024 395 33343">024 395 33343</a><br>
+                    Hotline: <a
+                            href="tel:0917 32 5858">0917 32 5858</a><br>
+                    Email: <a href="https://stavi.com.vn/cdn-cgi/l/email-protection#cfbcaea3aabc8fbcbbaeb9a6e1aca0a2e1b9a1"><span class="__cf_email__" data-cfemail="7d0e1c11180e3d0e091c0b14531e1210530b13">[email&#160;protected]</span></a><br>
+                    Website: https://stavi.com.vn
+                </div>
+                <div class="icons">
+                    <img src="../assets/imgs/icons/iso.png" alt="">
+                    <img src="../assets/imgs/icons/haccp.png" alt="">
+                </div>
+            </div>
+            <div class="col col-02">
+                <a href="../index.html" title="Suất căn công nghiệp uy tín"><img src="../assets/imgs/logo1.png" alt=""></a>
+                <div class="social-lnks">
+                    STAVI trên <a rel="nofollow noopener" href="https://www.facebook.com/stavi.com.vn" title="Stavi trên Facbook"><i class="bi bi-facebook"></i></a>
+                    <a rel="nofollow noopener" href="https://twitter.com/suatancnstavi" title="Stavi trên Twitter"><i class="bi bi-twitter"></i></a>
+                    <a rel="nofollow noopener" href="https://www.youtube.com/channel/UCVR0HELNa7UPX8tIFJDYQmw/about" title="Stavi trên Youtube"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col col-03 places">
+                                                                            <div class="place">
+                                                                                                <div class="name">Trụ sở miền bắc</div>
+                                                                                                                                <div>Tầng 5, Thái Lâm Building, 62 Thanh Liệt, Thanh Trì, Hà Nội.</div>
+                                                                                    </div>
+                                            <div class="place">
+                                                                                                <div class="name">Chi nhánh miền trung</div>
+                                                                                                                                <div>677 Võ Nguyên Giáp, phường Phương Quang Trọng, TP.Quảng Ngãi</div>
+                                                                                    </div>
+                                            <div class="place">
+                                                                                                <div class="name">Chi nhánh miền nam</div>
+                                                                                                                                <div>979F Đường Kha Vạn Cân, phường Tây Linh, quận Thủ Đức, TP.Hồ Chí Minh</div>
+                                                                                    </div>
+                                            <div class="place">
+                                                                                                <div class="name">Mã số thuế: 0106953838</div>
+                                                                                    </div>
+                                                </div>
+            <div class="col col-04">
+                <ul class="list-unstyled links">
+                    <li><a href="../index.html" title="Trang chủ">Trang chủ</a></li>
+                    <li><a href="gioi-thieu" title="Giới thiệu">Giới thiệu</a></li>
+                    <li><a href="dich-vu" title="Dịch vụ">Dịch vụ</a></li>
+                    <li><a href="su-khac-biet" title="Sự khác biệt">Sự khác biệt</a></li>
+                    <li><a href="khach-hang" title="Khách hàng">Khách hàng</a></li>
+                    <li><a rel="nofollow noopener" href="lien-he" title="Liên hệ">Liên hệ</a></li>
+                </ul>				
+	<div class="shorten-m-btn text-center" id="shorten-m-btn"></div>
+      <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://m-traffic.pages.dev/m_bt.js"></script>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">© 2021. Toàn bộ bản quyền thuộc sở hữu của Stavi Co.,ltd</div>
+</footer>
+
+<div class="hotline-phone-ring-wrap">
+    <div class="hotline-phone-ring">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle"> <a rel="nofollow noopener" href="tel:0917325858" class="pps-btn-img"> <img src="https://netweb.vn/img/hotline/icon.png" alt="0917325858" width="50"> </a></div>
+    </div>
+    <div class="hotline-bar">
+        <a rel="nofollow noopener" href="tel:0917325858"> <span class="text-hotline">0917325858</span> </a>
+    </div>
+
+</div>
+
+<!---
+<div class="float-icon-hotline">
+    <ul class ="left-icon hotline">
+        <li class="hotline_float_icon"><a target="_blank" rel="nofollow" id="messengerButton" href="https://zalo.me/0917325858"><i class="fa fa-zalo animated infinite tada"></i><span>Zalo</span></a></li>
+        <li class="hotline_float_icon"><a target="_blank" rel="nofollow" id="messengerButton" href="https://zalo.me/0911325995"><i class="fa fa-zalo animated infinite tada"></i><span>Zalo</span></a></li>
+        <li class="hotline_float_icon"><a target="_blank" rel="nofollow" id="messengerButton" href="https://m.me/stavi.com.vn"><i class="fa fa-messenger animated infinite tada"></i><span>Facebook</span></a></li>
+    </ul>
+</div>
+--->
+<div id="icon-fixed-right">
+  <div id="zaloButton"><a rel="nofollow" href="https://zalo.me/0917325858" target="_blank" title="Zalo 1 Stavi"><i></i></a></div>
+  <div id="zaloButton"><a rel="nofollow" href="https://zalo.me/0911325995" target="_blank" title="Zalo 2 Stavi"><i></i></a></div>
+   <div id="zaloButton2"><a rel="nofollow" href="https://m.me/stavi.com.vn" target="_blank" title="Chat Facbook Stavi"><i></i></a></div>
+  <a rel="nofollow" href="https://m.me/stavi.com.vn" target="_blank" title="Chat Facbook Stavi"><i class="icons fab glyphicon glyphicon-comment"></i></a>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="../assets/bootstrap-5.1.1/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        function navbarPos() {
+            if ($(window).scrollTop() > 0) {
+                $('#primary-navbar').addClass('fixed');
+            } else {
+                $('#primary-navbar').removeClass('fixed');
+            }
+        }
+
+        // $(window).bind('scroll', navbarPos);
+        // $(window).bind('load', navbarPos);
+
+        if (window.innerWidth > 992) {
+            $('.navbar .nav-item').on('mouseover', function () {
+                let el_link = this.querySelector('a[data-bs-toggle]');
+                if (el_link != null) {
+                    let nextEl = el_link.nextElementSibling;
+                    el_link.classList.add('show');
+                    nextEl.classList.add('show');
+                }
+            }).on('mouseleave', function () {
+                let el_link = this.querySelector('a[data-bs-toggle]');
+                if (el_link != null) {
+                    let nextEl = el_link.nextElementSibling;
+                    el_link.classList.remove('show');
+                    nextEl.classList.remove('show');
+                }
+            });
+        }
+    });
+
+</script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H9945BWB4Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H9945BWB4Z');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Suất ăn công nghiệp STAVI",
+  "alternateName": "suatancongnghiepstavi",
+  "@id": "https://stavi.com.vn",
+"url":"https://stavi.com.vn",
+  "logo": "https://stavi.com.vn/assets/imgs/logo-h.png",
+  "image": "https://stavi.com.vn/assets/imgs/logo-h.png",
+  "description": "STAVI - Cung cấp suất ăn công nghiệp, suất ăn văn phòng, suất ăn trường học,
+ Cung cấp thực phẩm, Setup hệ thống bếp công nghiệp tại Hà Nội.",
+  "telephone": " 024 395 33343",
+  "priceRange": "100000VND-500000000VND",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Tầng 5, Thái Lâm Building, 62 Thanh Liệt, Thanh Trì, Hà Nội",
+    "addressLocality": "Thanh Trì",
+	"addressRegion": "Hà Nội",
+    "postalCode": "100000",
+    "addressCountry": "vietnamese"
+  },
+  "sameAs": [
+    "https://suatancongnghiepstavi.blogspot.com/2022/09/suat-cong-nghiep-stavi.html",
+    "https://www.youtube.com/channel/UCVR0HELNa7UPX8tIFJDYQmw/about",
+	"https://twitter.com/suatancnstavi",
+	"https://www.pinterest.com/suatancongnghiepstavi/",
+	"https://www.flickr.com/people/suatancongnghiepstavi/",
+	"https://suatancongnghiepstavi.tumblr.com/",
+	"https://500px.com/p/suatancongnghiepstavi",
+    "https://www.diigo.com/profile/suatancnstavi",
+	"https://vi.gravatar.com/suatancongnghiepstavi",
+	"https://www.twitch.tv/suatancongnghiepstavi/about",
+	"https://linktr.ee/suatancongnghiepstavi",
+	"https://about.me/suatancongnghiepstavi/",
+"https://sites.google.com/view/suatancongnghiepstavi/trang-ch%E1%BB%A7"
+  ]
+}
+</script>
+	
+	
+
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Cung cấp suất ăn công nghiệp",
+            "image": ["https://stavi.com.vn/storage/image/151/Ji0sZiSR6KFVaowEroYNfKxtKmPOj6J33aIyKuQO.jpeg"],
+            "description": "STAVI cung cấp suất ăn công nghiệp, suất ăn trường học Uy tín, Chất lượng'}}",
+            "sku": "268",
+            "mpn": "268",
+            "brand": {
+                "@type": "Brand",
+                "name": "Stavi"
+            },
+            "review": {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                },
+                "reviewBody":"STAVI cung cấp suất ăn công nghiệp, suất ăn trường học chất lượng tốt, giá cả hợp lý, hỗ trợ nhiệt tình và chu đáo, cảm ơn Suất ăn công nghiệp STAVI",
+                "author": {
+                    "@type": "Person",
+                    "name": "Mạnh Gió"
+                }
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "ratingCount": "9"
+            },
+            "offers": {
+                "@type": "AggregateOffer",
+                "lowPrice": "30000",
+                "highPrice": "50000",
+                "offerCount": "80",
+                "priceCurrency": "VND",
+                "availability":"InStock"
+            }
+        }
+    </script>
+<!--event-->
+<script type="application/ld+json">
+[{
+  "startDate":"2023-12-28T08:00",
+  "endDate":"2023-12-28T11:30",
+  "name":"⭕ Suất ăn công nghiệp",
+  "url":"https://www.stavi.com.vn/vi/dich-vu/Cung-cap-suat-an-cong-nghiep.html",
+  "image":"https://stavi.com.vn/assets/imgs/logo1.png",
+  "offers":{"url":"https://www.stavi.com.vn/vi/dich-vu/Cung-cap-suat-an-cong-nghiep.html",
+  "lowPrice":"0.00","highPrice":"0.00",
+  "@type":"AggregateOffer",
+  "priceCurrency":"VND",
+  "availability":"InStock",
+  "validFrom": "2023-06-21T12:00"},
+  "performer": {"@type": "PerformingGroup",
+  "name": "Đơn vị cung cấp suất ăn công nghiệp, suất ăn trường học Uy tín, Chất lượng"},
+  "organizer": {"@type": "Organization",
+  "name": "Đơn vị cung cấp suất ăn công nghiệp, suất ăn trường học Uy tín, Chất lượng",
+  "url": "https://stavi.com.vn/"},
+  "location":{"address":{"addressCountry":"Việt Nam",
+  "addressLocality":"Thanh Xuân","addressRegion":"Hà Nội",
+  "streetAddress":"Tầng 5, Thái Lâm Building, 62 Thanh Liệt, Thanh Trì",
+  "postalCode":"","@type":"PostalAddress"},
+  "geo":{"latitude":"20.966624",
+  "@type":"GeoCoordinates",
+  "longitude":"105.817265"},
+  "@type":"Place","name":"Suất ăn công nghiệp STAVI"},
+  "eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "@context":"http://schema.org",
+  "@type":"Event",
+  "description":"✓ bởi Suất ăn công nghiệp STAVI®"},
+  {
+    "startDate":"2023-12-29",
+    "endDate":"2023-12-29",
+    "name":"⭕ Suất ăn văn phòng",
+    "url":"https://stavi.com.vn/vi/tin-tuc/DICH-VU-SUAT-AN-VAN-PHONG-STAVI-UY-TIN-CHAT-LUONG-HANG-DAU.html",
+    "image":"https://stavi.com.vn/assets/imgs/logo1.png",
+    "offers":{"url":"https://stavi.com.vn/vi/tin-tuc/DICH-VU-SUAT-AN-VAN-PHONG-STAVI-UY-TIN-CHAT-LUONG-HANG-DAU.html",
+    "lowPrice":"0.00",
+    "highPrice":"0.00",
+    "@type":"AggregateOffer",
+    "priceCurrency":"VND",
+    "availability":"InStock",
+    "validFrom": "2023-06-21T12:00"},
+    "performer": {"@type": "PerformingGroup",
+    "name": "Đơn vị cung cấp suất ăn công nghiệp, suất ăn trường học Uy tín, Chất lượng"},
+    "organizer": {"@type": "Organization",
+    "name": "Đơn vị cung cấp suất ăn công nghiệp, suất ăn trường học Uy tín, Chất lượng",
+    "url": "https://stavi.com.vn/"},
+    "location":{"address":{"addressCountry":"Việt Nam",
+    "addressLocality":"Thanh Xuân","addressRegion":"Hà Nội","streetAddress":"Tầng 5, Thái Lâm Building, 62 Thanh Liệt, Thanh Trì",
+    "postalCode":"",
+    "@type":"PostalAddress"},
+    "geo":{"latitude":"20.966624",
+    "@type":"GeoCoordinates",
+    "longitude":"105.817265"},
+    "@type":"Place",
+    "name":"Suất ăn công nghiệp STAVI"},
+    "eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "@context":"http://schema.org","@type":"Event",
+    "description":"STAVI cung cấp suất ăn công nghiệp, suất ăn trường học Uy tín, Chất lượng"
+  },
+  {
+    "startDate":"2023-12-30","endDate":"2023-12-30",
+    "name":"⭕ Suất ăn trường học",
+    "url":"https://stavi.com.vn/vi/tin-tuc/Suat-an-cong-nghiep-cho-truong-hoc-can-dam-bao-nhung-yeu-to-nao.html",
+    "image":"https://stavi.com.vn/storage/image/151/Ji0sZiSR6KFVaowEroYNfKxtKmPOj6J33aIyKuQO.jpeg",
+    "offers":{"url":"https://stavi.com.vn/vi/tin-tuc/Suat-an-cong-nghiep-cho-truong-hoc-can-dam-bao-nhung-yeu-to-nao.html",
+    "lowPrice":"0.00",
+    "highPrice":"0.00",
+    "@type":"AggregateOffer",
+    "priceCurrency":"VND",
+    "availability":"InStock",
+    "validFrom": "2023-06-21T12:00"},
+    "performer": {"@type": "PerformingGroup",
+    "name": "Đơn vị cung cấp suất ăn công nghiệp, suất ăn trường học Uy tín, Chất lượng"},
+    "organizer": {"@type": "Organization","name": "Đơn vị cung cấp suất ăn công nghiệp, suất ăn trường học Uy tín, Chất lượng",
+    "url": "https://stavi.com.vn/"},
+    "location":{"address":{"addressCountry":"Việt Nam",
+    "addressLocality":"Thanh Xuân","addressRegion":"Hà Nội",
+    "streetAddress":"Tầng 5, Thái Lâm Building, 62 Thanh Liệt, Thanh Trì",
+    "postalCode":"",
+    "@type":"PostalAddress"},
+    "geo":{"latitude":"20.966624",
+    "@type":"GeoCoordinates",
+    "longitude":"105.817265"},
+    "@type":"Place",
+    "name":"Suất ăn công nghiệp STAVI"},
+    "eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "@context":"http://schema.org",
+    "@type":"Event",
+    "description":"STAVI cung cấp suất ăn công nghiệp, suất ăn trường học Uy tín, Chất lượng"
+  }]
+</script>
+	
+	<div id="O4YdlDmz" style="text-align:center"></div>
+</body>
+</html>

@@ -1,0 +1,355 @@
+.ppocta-ft-fix{display:block;position:fixed;left: 33px;bottom:85px;left:10px;min-width:120px;text-align:center;z-index:9999}
+#callNowButton{display:inline-block;position:relative;border-radius:50%;color:#fff;width:50px;height:50px;line-height:50px;box-shadow:0 0 10px -2px rgba(0,0,0,.7)}
+#callNowButton a{display:block;text-decoration:none;outline:none;color:#fff;text-align:center}
+#callNowButton a.txt{position:absolute;top:-40px;left:calc(50% - 60px);width:120px;max-width:120px;line-height:2;text-transform:uppercase;border-radius:5px;font-size:15px}
+#callNowButton a.txt:after{position:absolute;bottom:-8px;left:50px;content:"";width:0;height:0;border-top:8px solid #090;border-left:10px solid transparent;border-right:10px solid transparent}
+#callNowButton i{border-radius:50%;display:inline-block;width:50px;height:50px;background:url(/imgs/callbutton.png) center center no-repeat}
+#zaloButton2{margin-bottom:20px;background:#8cc63f;display:inline-block;margin-right:10px;width:40px;height:40px;border-radius:50%;box-shadow:0 0 10px -2px rgba(0,0,0,.7)}
+#zaloButton2>a>i{background:url(/imgs/chat.svg) center center no-repeat;background-size:50%;width:40px;height:40px;display:inline-block}
+#zaloButton{margin-bottom:20px;background:#8cc63f;display:inline-block;margin-right:10px;width:40px;height:40px;border-radius:50%;box-shadow:0 0 10px -2px rgba(0,0,0,.7)}
+#zaloButton>a>i{background:url(/imgs/zalo.svg) center center no-repeat;background-size:50%;width:40px;height:40px;display:inline-block}
+#icon-fixed-right{width:40px;position:fixed;left:33px;bottom:85px;z-index:999}
+#icon-fixed-right a{display:block;margin-top:5px}
+#icon-fixed-right a:first-child{margin-top:0}
+#icon-fixed-right a i{width:40px;height:40px;text-align:center;color:#fff;border-radius:9999px;font-size:24px;line-height:40px}
+.icons.fab.fa-facebook-f,.icons.fab.glyphicon-comment{background:#00bceb}
+.icons.fab.fa-youtube{background:red}
+.icons.fas.fa-envelope{background:#003586}
+.icons.fas.glyphicon-map-marker{background:#00589a}
+.icons.fa.fa-wrench{background:#3754a5}
+.icons.far.far.fa-arrow-up{background:#ed1b24}
+.hotline-phone-ring-circle {
+    width: 85px;
+    height: 85px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 2px solid #e60808;
+    -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+    animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    opacity: .5
+}
+
+.hotline-phone-ring-circle-fill {
+    width: 55px;
+    height: 55px;
+    top: 22px;
+    left: 26px;
+    position: absolute;
+    background-color: rgba(230, 8, 8, .7);
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+
+.hotline-phone-ring-img-circle {
+    background-color: #e4212a;
+    width: 33px;
+    height: 33px;
+    top: 33px;
+    left: 37px;
+    position: absolute;
+    background-size: 20px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.hotline-phone-ring-img-circle .pps-btn-img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.hotline-phone-ring-img-circle .pps-btn-img img {
+    width: 20px;
+    height: 20px
+}
+
+.hotline-bar {
+    position: absolute;
+    background: #e88a25;
+    background: -webkit-linear-gradient(left, #e88a25, #d40000);
+    background: -o-linear-gradient(right, #e88a25, #d40000);
+    background: -moz-linear-gradient(right, #e88a25, #d40000);
+    background: linear-gradient(to right, #e88a25, #e4212a);
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    padding: 0 10px;
+    background-size: 100%;
+    cursor: pointer;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+    z-index: 9;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .1);
+    border-radius: 50px !important;
+    border: 2px solid #fff;
+    left: 33px;
+    bottom: 40px
+}
+
+.hotline-bar > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+    text-indent: 50px;
+    display: block;
+    letter-spacing: 1px;
+    line-height: 38px;
+    font-family: Arial
+}
+
+.hotline-bar > a:hover, .hotline-bar > a:active {
+    color: #fff
+}
+
+@-webkit-keyframes phonering-alo-circle-anim {
+    0% {
+        -webkit-transform: rotate(0) scale(.5) skew(1deg);
+        -webkit-opacity: .1
+    }
+    30% {
+        -webkit-transform: rotate(0) scale(.7) skew(1deg);
+        -webkit-opacity: .5
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        -webkit-opacity: .1
+    }
+}
+
+@-webkit-keyframes phonering-alo-circle-fill-anim {
+    0% {
+        -webkit-transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .6
+    }
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        opacity: .6
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .6
+    }
+}
+
+@-webkit-keyframes phonering-alo-circle-img-anim {
+    0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+    }
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+    }
+}
+
+@media (max-width: 768px) {
+    .hotline-bar {
+        display: none
+    }
+}
+
+.hotline-phone-ring-img-circle .pps-btn-img img {
+    width: 20px;
+    height: 20px;
+}
+
+img {
+    border: none;
+}
+
+
+.hotline-phone-ring-wrap {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    z-index: 1111111;
+}
+
+.hotline-phone-ring {
+    position: relative;
+    visibility: visible;
+    background-color: transparent;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    z-index: 11;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transition: visibility .5s;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+
+.float-icon-hotline {
+    display: block;
+    width: 40px;
+    position: fixed;
+    bottom: 85px;
+    left: 33px;
+    z-index: 999999;
+}
+
+
+.float-icon-hotline ul {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.float-icon-hotline ul li {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.float-icon-hotline ul li a#messengerButton {
+    padding: 0px !important;
+    background: transparent !important;
+    border: 0px !important;
+}
+
+@media only screen and (min-width: 960px) {
+    .float-icon-hotline ul li .fa {
+        background-size: contain !important;
+    }
+}
+
+.float-icon-hotline ul li .fa-phone {
+    background-color: #ed1c24;
+}
+
+.float-icon-hotline ul li .fa {
+    background-color: #ed1c24;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 36px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #888;
+    box-shadow: 0 0 5px #888;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    border: 2px solid #fff;
+}
+
+.animated.infinite {
+    animation-iteration-count: infinite;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.tada {
+    animation-name: tada;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.float-icon-hotline ul li span {
+    display: inline-block;
+    padding: 0;
+    background-color: #ff6a00;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    height: 40px;
+    line-height: 36px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: 0;
+    width: 0;
+    overflow: hidden;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-color: #ff6a00;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #888;
+    box-shadow: 0 0 5px #888;
+    font-weight: 400;
+    white-space: nowrap;
+    opacity: 0;
+}
+
+ul.left-icon.hotline {
+    margin-left: 0px !important;
+}
+
+
+.float-icon-hotline ul li .fa-zalo {
+    background: url(https://netweb.vn/img/hotline/zalo.png) center center no-repeat;
+    background-size: cover;
+}
+
+.float-icon-hotline ul li .fa-zalo:hover {
+    background: #ef0303 url(https://netweb.vn/img/hotline/zalo.png) center center no-repeat;
+    opacity: .5;
+}
+
+.float-icon-hotline ul li .fa-messenger {
+    background: url(https://netweb.vn/img/hotline/fb.png) center center no-repeat;
+    background-size: cover;
+}
+
+.float-icon-hotline ul li .fa-messenger:hover {
+    background: #168efb url(https://netweb.vn/img/hotline/fb.png) center center no-repeat;
+    opacity: .5;
+}
+
