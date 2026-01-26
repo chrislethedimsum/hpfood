@@ -54,50 +54,6 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
-      <Script
-        id="org-schema"
-        type="application/ld+json"
-        strategy="afterInteractive"
-      >
-        {`{
-        
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": "Suất ăn công nghiệp Hạnh Phúc",
-          "alternateName": "suatancongnghiepHạnh Phúc",
-          "@id": "https://Hạnh Phúc.com.vn",
-          "url":"https://Hạnh Phúc.com.vn",
-          "logo": "https://Hạnh Phúc.com.vn/assets/imgs/logo-h.png",
-          "image": "https://Hạnh Phúc.com.vn/assets/imgs/logo-h.png",
-          "description": "Hạnh Phúc - Cung cấp suất ăn công nghiệp, suất ăn văn phòng, suất ăn trường học,
-            Cung cấp thực phẩm, Setup hệ thống bếp công nghiệp tại Hà Nội.",
-          "telephone": " 024 395 33343",
-          "priceRange": "100000VND-500000000VND",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Tầng 5, Thái Lâm Building, 62 Thanh Liệt, Thanh Trì, Hà Nội",
-            "addressLocality": "Thanh Trì",
-            "addressRegion": "Hà Nội",
-            "postalCode": "100000",
-            "addressCountry": "vietnamese"
-          },
-          "sameAs": [
-            "https://suatancongnghiepHạnh Phúc.blogspot.com/2022/09/suat-cong-nghiep-Hạnh Phúc.html",
-            "https://www.youtube.com/channel/UCVR0HELNa7UPX8tIFJDYQmw/about",
-            "https://twitter.com/suatancnHạnh Phúc",
-            "https://www.pinterest.com/suatancongnghiepHạnh Phúc/",
-            "https://www.flickr.com/people/suatancongnghiepHạnh Phúc/",
-            "https://suatancongnghiepHạnh Phúc.tumblr.com/",
-            "https://500px.com/p/suatancongnghiepHạnh Phúc",
-            "https://www.diigo.com/profile/suatancnHạnh Phúc",
-            "https://vi.gravatar.com/suatancongnghiepHạnh Phúc",
-            "https://www.twitch.tv/suatancongnghiepHạnh Phúc/about",
-            "https://linktr.ee/suatancongnghiepHạnh Phúc",
-            "https://about.me/suatancongnghiepHạnh Phúc/",
-            "https://sites.google.com/view/suatancongnghiepHạnh Phúc/trang-ch%E1%BB%A7"
-          ]
-        }`}
-      </Script>
     </html>
   );
 }

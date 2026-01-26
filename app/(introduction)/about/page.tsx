@@ -1,6 +1,5 @@
 import MainLayout from "@/app/(landing page)/layout";
 import type { Metadata, Viewport } from "next";
-import { useEffect } from "react";
 
 export const viewport: Viewport = {
   themeColor: "#ED1D24",
@@ -12,106 +11,26 @@ export const metadata: Metadata = {
 };
 
 export default function AboutUs() {
-    useEffect(() => {
-    const $ = (window as any).$;
-    if (!$) return;
-
-    /* ===== NAVBAR ===== */
-    const navbarPos = () => {
-      if ($(window).scrollTop() > 0) {
-        $("#primary-navbar").addClass("fixed");
-      } else {
-        $("#primary-navbar").removeClass("fixed");
-      }
-    };
-
-    if (window.innerWidth > 992) {
-      $(".navbar .nav-item")
-        .on("mouseover", function (this: HTMLElement) {
-          const el_link = this.querySelector("a[data-bs-toggle]");
-          if (el_link) {
-            const nextEl = el_link.nextElementSibling as HTMLElement | null;
-            el_link.classList.add("show");
-            nextEl?.classList.add("show");
-          }
-        })
-        .on("mouseleave", function (this: HTMLElement) {
-          const el_link = this.querySelector("a[data-bs-toggle]");
-          if (el_link) {
-            const nextEl = el_link.nextElementSibling as HTMLElement | null;
-            el_link.classList.remove("show");
-            nextEl?.classList.remove("show");
-          }
-        });
-    }
-
-    /* ===== YOUTUBE LAZY LOAD ===== */
-    const youtubeEls = document.querySelectorAll<HTMLElement>(".youtube");
-
-    youtubeEls.forEach((el) => {
-      const source = "https://img.youtube.com/vi/BfziQTiNPWQ/sddefault.jpg";
-
-      const image = new Image();
-      image.src = source;
-      image.className = "lazy";
-      image.alt =
-        "Suất ăn công nghiệp Hạnh Phúc trên kênh VTC2 - phóng sự: Suất ăn an toàn";
-
-      image.onload = () => {
-        el.appendChild(image);
-      };
-
-      const clickHandler = () => {
-        const iframe = document.createElement("iframe");
-        iframe.setAttribute("frameborder", "0");
-        iframe.setAttribute("allowfullscreen", "");
-        iframe.src =
-          "https://www.youtube.com/embed/BfziQTiNPWQ?rel=0&showinfo=0&autoplay=1";
-
-        el.innerHTML = "";
-        el.appendChild(iframe);
-      };
-
-      el.addEventListener("click", clickHandler);
-
-      // lưu để cleanup
-      (el as any)._ytClick = clickHandler;
-    });
-
-    /* ===== CLEANUP ===== */
-    return () => {
-      $(".navbar .nav-item").off("mouseover mouseleave");
-      $(window).off("scroll", navbarPos);
-
-      youtubeEls.forEach((el) => {
-        const handler = (el as any)._ytClick;
-        if (handler) {
-          el.removeEventListener("click", handler);
-        }
-      });
-    };
-  }, []);
     return (
         <MainLayout>
             <section className="section news-view">
                 <div className="container">
                     <div className="section-body text-justify">
                         <h1 className="section-title">Lời nói đầu</h1>
-                        <p><strong>CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI DỊCH VỤ SAO VIỆT NAM (STAVI CO., LTD)</strong> là một trong những công ty hàng đầu về lĩnh vực thực phẩm, suất ăn công nghiệp tại Việt Nam.<br>
-                            Với phương thức cung cấp trọn gói bao gồm dịch vụ cung cấp suất ăn công nghiệp, dịch vụ cung cấp thực phẩm cho khách hàng và đồng thời cung cấp trang thiết bị bếp ăn. Chúng tôi tập trung vào nguồn lực từ đội ngũ nhân sự chất lượng, được đào tạo bài bản và có nhiều năm kinh nghiệm trong lĩnh vực, đến hệ thống trang thiết bị hiện đại, để tự tin mang đến cho khách hàng dịch vụ chuyên nghiệp nhất, chất lượng nhất với mức chi phí tối ưu nhất.</p>
-                        <p>STAVI vinh dự được trở thành đối tác thân thiết và lâu năm của các đơn vị có quy mô lớn trong nước, đồng thời nhận được sự ghi nhận và đánh giá cao từ phía đối tác cả về Chất Lượng và Dịch Vụ, có thể kể đến như: Công ty TNHH Điện tử Canon Việt Nam, Công ty TNHH Điện tử Taisei Việt Nam, Công ty TNHH Thiết bị Công nghiệp Toyota Việt Nam, Công Ty TNHH Công Nghệ Nissei Việt Nam, Công Ty TNHH Scancom Việt Nam – Chi Nhánh Mêkong, Nhà Máy Sữa đậu nành Vinasoy Bình Dương,...</p>
-                        <p>Tập trung vào chất lượng và luôn có quy trình kiểm soát khắt khe để mang đến dịch vụ hoàn hảo nhất cho Quý khách hàng, Stavi đã được cơ quan quản lý có thẩm quyền cấp Giấy chứng nhận về vệ sinh an toàn thực phẩm, đạt tiêu chuẩn <strong>ISO 22000:2018</strong> - Tiêu chuẩn quốc tế về hệ thống quản lý an toàn thực phẩm và mua bảo hiểm cho mỗi suất ăn Stavi cung cấp. Hiện tại Stavi có thể đáp ứng mọi nhu cầu về các dịch vụ cung cấp suất ăn công nghiệp cho Quý đối tác.</p>
+                        <p><b>CÔNG TY TNHH DỊCH VỤ VÀ THƯƠNG MẠI HẠNH PHÚC</b> là đơn vị hoạt động chuyên sâu trong lĩnh vực <b>cung cấp suất ăn tập thể, suất ăn học đường và dịch vụ nhà hàng – catering</b> tại Việt Nam. Với gần <b>10 năm kinh nghiệm</b>, Hạnh Phúc đã và đang khẳng định uy tín thông qua chất lượng bữa ăn, sự an toàn trong quy trình chế biến và tinh thần phục vụ tận tâm.</p>
+                        <p>Chúng tôi cung cấp <b>giải pháp suất ăn trọn gói</b> cho các trường học và tổ chức, bao gồm: xây dựng thực đơn dinh dưỡng phù hợp từng đối tượng, tổ chức bếp ăn, chế biến – phân phối suất ăn và dịch vụ tiệc theo yêu cầu như <b>tiệc cưới, tiệc hội thảo, sự kiện, team building</b>. Hạnh Phúc luôn chú trọng đầu tư vào đội ngũ nhân sự hơn <b>100 người</b>, hệ thống <b>10+ cơ sở hoạt động ổn định</b>, cùng trang thiết bị bếp ăn đáp ứng các yêu cầu về <b>vệ sinh an toàn thực phẩm</b>.</p>
+                        <p>Hiện nay, Hạnh Phúc là đối tác cung cấp suất ăn cho nhiều <b>trường học cấp 1, cấp 2</b> trên địa bàn như <b>Khương Đình, Thanh Xuân Nam, Phan Đình Giót, Phương Liệt, Lý Nam Đế, Kim Giang</b>, đồng thời phục vụ hàng chục khách hàng thân thiết trong lĩnh vực nhà hàng và catering. Mỗi năm, chúng tôi cung cấp hơn <b>4.000 suất ăn</b>, luôn nhận được sự tin tưởng và đánh giá tích cực từ phía nhà trường, phụ huynh và đối tác.</p>
+                        <p>Lấy <b>chất lượng – an toàn – trách nhiệm</b> làm kim chỉ nam, Hạnh Phúc xây dựng quy trình kiểm soát chặt chẽ từ khâu lựa chọn nguyên liệu, chế biến đến phục vụ, nhằm mang đến những bữa ăn <b>đầy đủ dinh dưỡng, an toàn và phù hợp với từng độ tuổi</b>. Chúng tôi cam kết không ngừng hoàn thiện dịch vụ để trở thành <b>đối tác tin cậy và lâu dài</b> của Quý khách hàng.</p>
                         <ul className="list-unstyled other-post">
                             <li><a href="https://stavi.com.vn/vi/gioi-thieu/Tam-nhin-su-menh.html">Tầm nhìn sứ mệnh</a></li>
                             <li><a href="https://stavi.com.vn/vi/gioi-thieu/Gia-tri-cot-loi.html">Giá trị cốt lõi</a></li>
                             <li><a href="https://stavi.com.vn/vi/gioi-thieu/So-do-to-chuc.html">Sơ đồ tổ chức</a></li>
-                            <li><a href="https://stavi.com.vn/vi/gioi-thieu/Quy-mo-STAVI.html">Quy mô STAVI</a></li>
+                            <li><a href="https://stavi.com.vn/vi/gioi-thieu/Quy-mo-STAVI.html">Quy mô Hạnh Phúc</a></li>
                             <li><a href="https://stavi.com.vn/vi/gioi-thieu/Chung-chi-chat-luong-bao-hiem.html">Chứng chỉ chất lượng, bảo hiểm</a></li>
                         </ul>
                     </div>
                 </div>
             </section>
-            abc
         </MainLayout>
     );
 }
