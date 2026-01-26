@@ -5,6 +5,9 @@ import '@/app/ui/bootstrap-5.1.1/css/bootstrap.min.css';
 import '@/app/ui/bootstrap-icons.css';
 import '@/app/ui/globals.css';
 import Script from "next/script";
+import NavBar from "@/app/ui/navbar";
+import ImageSlider from "@/app/ui/imageslider";
+import Footer from "@/app/ui/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,7 +49,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <NavBar />
+        <ImageSlider />
         {children}
+        <Footer />
       </body>
       <Script
         id="org-schema"

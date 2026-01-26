@@ -374,11 +374,17 @@ img {
       text-align: center;
       margin-bottom: 100px;
       flex: 33.3333% 0 0;
-      height: 70px;
-      overflow: hidden; }
+      height: 70px;}
       .section-customer .list ._item img {
-        max-height: 70px;
+        max-height: 100px;
         max-width: 80%; }
+      .section-customer .list ._item .description {
+        margin-top: 10px; /* Tạo khoảng cách giữa ảnh và mô tả */
+        text-align: center;
+        font-size: 14px; /* Bạn có thể điều chỉnh font-size nếu cần */
+        color: #333; /* Màu chữ, có thể thay đổi theo thiết kế */
+        font-weight: bold;
+      }
 
 footer {
   background: #222;
