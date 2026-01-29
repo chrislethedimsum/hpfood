@@ -104,43 +104,18 @@ export default function NavBar() {
                         </li>
                     </ul>
                     </li>
-
-                    <li className="nav-item dropdown lang-menu">
-                    <Link
-                        className="nav-link dropdown-toggle text-uppercase"
-                        href="vi/tin-tuc/CHE-DO-DAI-NGO-CUA-CONG-TY-Hạnh Phúc-DOI-VOI-NH-N-VIEN-CO-TOT-KHONG.html"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                    >
-                        Tin tức
-                    </Link>
-                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li>
-                        <Link
-                            className="dropdown-item"
-                            href="vi/tin-tuc/CHE-DO-DAI-NGO-CUA-CONG-TY-Hạnh Phúc-DOI-VOI-NH-N-VIEN-CO-TOT-KHONG.html"
-                            title="Tin tức"
-                        >
-                            Tin tức
-                        </Link>
-                        </li>
-
-                        <li>
-                        <Link className="dropdown-item" href="vi/tuyen-dung" title="Tuyển dụng">
-                            Tuyển dụng
-                        </Link>
-                        </li>
-                    </ul>
-                    </li>
-
                     <li className="nav-item">
-                    <Link className="nav-link" href="vi/khach-hang" title="Khách hàng">
+                    <Link className="nav-link" href="recruitment" title="Tuyển dụng">
+                        Tuyển dụng
+                    </Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link className="nav-link" href="customer" title="Khách hàng">
                         Khách hàng
                     </Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" href="vi/lien-he" title="Liên hệ">
+                    <Link className="nav-link" href="contact" title="Liên hệ">
                         Liên hệ
                     </Link>
                     </li>

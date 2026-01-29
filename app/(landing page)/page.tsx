@@ -90,14 +90,14 @@ export default function Home() {
       <div className="container">
         <h1 className="mb-5">Đơn vị cung cấp suất ăn công nghiệp, suất ăn trường học Uy tín, Chất lượng</h1>
         <h2 className="section-title">Dịch vụ của HẠNH PHÚC</h2>
-        <div className="section-body news _3col">
+        <div className="section-body news _2col">
           <ul className="list-unstyled d-flex list">
             <li className="item">
               <a href="vi/dich-vu" className="img">
                 <div
-                  className="img-bg"
+                  className="img-bg rounded"
                   style={{
-                    backgroundImage: `url(storage/image/426/thumbnail/T0dIMaDQNmecuY1WbbzLmdoAhDfEMjHfdV2lu9sU-390x270c.jpeg)`,
+                    backgroundImage: `url(imgs/staff/staff1.jpg)`,
                   }}
                 ></div>
               </a>
@@ -108,23 +108,9 @@ export default function Home() {
               </p>
             </li>
             <li className="item">
-              <a href="vi/dich-vu/Dich-vu-nha-hang.html" className="img">
-                <div
-                  className="img-bg"
-                  style={{
-                    backgroundImage: `url(storage/image/30/thumbnail/C5yyDcl7NFadt2kOBhCV1I9rIK7Lj5IYDJeWF0v3-390x270c.jpeg)`,
-                  }}
-                ></div>
-              </a>
-              <h3 className="news-title"><a href="vi/dich-vu/Dich-vu-nha-hang.html">Dịch vụ nhà hàng</a></h3>
-              <p className="news-desc">
-                Chuỗi nhà hàng theo phong cách phố xưa thập niên 80 với hơn 40 món ngon đặc sản từ bò tơ thượng hạng mềm,...
-              </p>
-            </li>
-            <li className="item">
               <a href="vi/dich-vu/Dich-vu-cung-cap-thuc-pham.html" className="img">
                 <div
-                  className="img-bg"
+                  className="img-bg rounded"
                   style={{
                     backgroundImage: `url(storage/image/31/thumbnail/kS6kAL5100doO9Z4fFa8r32slBt22TdSGmEunigN-390x270c.jpeg)`,
                   }}
@@ -315,7 +301,7 @@ export default function Home() {
                   <li className="item">
                     <div className="img">
                       <div
-                        className="img-bg"
+                        className="img-bg rounded"
                         style={{
                           backgroundImage: `url(imgs/school/khuongdinhc1-2.webp)`,
                         }}
@@ -327,7 +313,7 @@ export default function Home() {
                   <li className="item">
                     <div className="img">
                       <div
-                        className="img-bg"
+                        className="img-bg rounded"
                         style={{
                           backgroundImage: `url(imgs/school/khuongdinhc2-2.png)`,
                         }}
@@ -339,7 +325,7 @@ export default function Home() {
                   <li className="item">
                     <div className="img">
                       <div
-                        className="img-bg"
+                        className="img-bg rounded"
                         style={{
                           backgroundImage: `url(imgs/school/kimgiangc2-2.webp)`,
                         }}
@@ -351,7 +337,7 @@ export default function Home() {
                   <li className="item">
                     <div className="img">
                       <div
-                        className="img-bg"
+                        className="img-bg rounded"
                         style={{
                           backgroundImage: `url(imgs/school/lynamdec2-2.jpg)`,
                         }}
@@ -363,7 +349,7 @@ export default function Home() {
                   <li className="item">
                     <div className="img">
                       <div
-                        className="img-bg"
+                        className="img-bg rounded"
                         style={{
                           backgroundImage: `url(imgs/school/phandinhgiotc2-2.jpg)`,
                         }}
@@ -375,7 +361,7 @@ export default function Home() {
                   <li className="item">
                     <div className="img">
                       <div
-                        className="img-bg"
+                        className="img-bg rounded"
                         style={{
                           backgroundImage: `url(imgs/school/phuonglietc2-2.jpg)`,
                         }}
@@ -391,7 +377,7 @@ export default function Home() {
                   <li className="item">
                     <div className="img">
                       <div
-                        className="img-bg"
+                        className="img-bg rounded"
                         style={{
                           backgroundImage: `url(imgs/school/thanhxuannamc2-2.png)`,
                         }}
@@ -403,7 +389,7 @@ export default function Home() {
                   <li className="item">
                     <div className="img">
                       <div
-                        className="img-bg"
+                        className="img-bg rounded"
                         style={{
                           backgroundImage: `url(imgs/school/hvct.jpg)`,
                         }}
@@ -415,7 +401,7 @@ export default function Home() {
                   <li className="item">
                     <div className="img">
                       <div
-                        className="img-bg"
+                        className="img-bg rounded"
                         style={{
                           backgroundImage: `url(imgs/school/ktxpv.jpg)`,
                         }}
@@ -427,7 +413,7 @@ export default function Home() {
                   <li className="item">
                     <div className="img">
                       <div
-                        className="img-bg"
+                        className="img-bg rounded"
                         style={{
                           backgroundImage: `url(imgs/school/thanhxuannamc1.jpg)`,
                         }}
@@ -457,73 +443,6 @@ export default function Home() {
               ></span
             >
           </p>
-        </div>
-      </div>
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <h2 className="section-title text-uppercase">Tin tức</h2>
-        <div className="section-body news _3col">
-          <ul className="list-unstyled d-flex list">
-            <li className="item">
-              <a className="img" href="vi/tin-tuc/Hạnh Phúc-giu-vung-gia-va-chat-luong-giua-thoi-diem-bao-gia-thuc-pham.html">
-                <div
-                  className="img-bg"
-                  style={{
-                          backgroundImage: `url(storage/image/467/thumbnail/zHZGBYhu3DRxLGTWTqncFpgdUUsSoZDAluhCFzeN-390x270c.jpeg)`,
-                        }}
-                ></div>
-              </a>
-              <h3 className="news-title">
-                <a href="vi/tin-tuc/Hạnh Phúc-giu-vung-gia-va-chat-luong-giua-thoi-diem-bao-gia-thuc-pham.html"
-                  >Hạnh Phúc giữ vững giá và chất lượng giữa thời điểm “bão giá” thực phẩm</a
-                >
-              </h3>
-              <p className="news-desc">
-                Trước khó khăn giá thực phẩm tăng mạnh, hầu hết các đơn vị cung ứng suất ăn công nghiệp đều đối mặt với áp lực lớn từ...
-              </p>
-            </li>
-            <li className="item">
-              <a className="img" href="vi/tin-tuc/Cach-bao-quan-thuc-pham-an-toan-cho-bep-an-cong-nghiep.html">
-                <div
-                  className="img-bg"
-                  style={{
-                          backgroundImage: `url(storage/image/466/thumbnail/eNfcdXI44eQyhgCLQY6VOct5ACER4AqxGzd7Kuqs-390x270c.jpeg)`,
-                        }}
-                ></div>
-              </a>
-              <h3 className="news-title">
-                <a href="vi/tin-tuc/Cach-bao-quan-thuc-pham-an-toan-cho-bep-an-cong-nghiep.html"
-                  >Cách bảo quản thực phẩm an toàn cho bếp ăn công nghiệp</a
-                >
-              </h3>
-              <p className="news-desc">
-                Đối với các bếp ăn công nghiệp việc bảo quản thực phẩm rất được đề cao, vì chất lượng ảnh hưởng đến bữa ăn của hàng ngàn...
-              </p>
-            </li>
-            <li className="item">
-              <a className="img" href="vi/tin-tuc/Cach-phan-biet-thit-lon-tuoi-ngon-cho-bep-an.html">
-                <div
-                  className="img-bg"
-                  style={{
-                          backgroundImage: `url(storage/image/461/thumbnail/0GO8WF1WCKae8Notfx3OSeutXiFxoY4GDpvUwd6j-390x270c.jpeg)`,
-                        }}
-                ></div>
-              </a>
-              <h3 className="news-title">
-                <a href="vi/tin-tuc/Cach-phan-biet-thit-lon-tuoi-ngon-cho-bep-an.html">Cách phân biệt thịt lợn tươi ngon cho bếp ăn</a>
-              </h3>
-              <p className="news-desc">
-                Trong mỗi căn bếp, việc lựa chọn nguyên liệu tươi ngon là yếu tố tiên quyết tạo nên chất lượng món ăn. Với bếp ăn công...
-              </p>
-            </li>
-          </ul>
-          <div className="text-center _btn">
-            <a href="vi/tin-tuc/CHE-DO-DAI-NGO-CUA-CONG-TY-Hạnh Phúc-DOI-VOI-NH-N-VIEN-CO-TOT-KHONG.html" className="btn btn-primary btn-lg"
-              >Xem thêm</a
-            >
-          </div>
         </div>
       </div>
     </section>
