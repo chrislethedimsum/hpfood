@@ -25,7 +25,7 @@ export async function POST(req) {
     <p><strong>Nội dung:</strong> ${content}</p>
   `;
   sendSmtpEmail.sender = { name: "Hạnh Phúc Website", email: 'chrislethedimsum@gmail.com' }; // Email của bạn
-  sendSmtpEmail.to = [{ email: 'phuc0511999@gmail.com' }]; // Email nhận thông tin
+  sendSmtpEmail.to = [{ email: 'info@hpfood.info' }]; // Email nhận thông tin
 
   try {
     const data = await apiInstance.sendTransacEmail(sendSmtpEmail);
