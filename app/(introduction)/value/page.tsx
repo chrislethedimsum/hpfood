@@ -14,77 +14,77 @@ export const metadata: Metadata = {
 export default function Value() {
   return (
     <MainLayout>
-      <section class="section news-view">
-        <div class="container">
-          <div class="section-body text-justify">
-            <h1 class="section-title">Giá trị cốt lõi</h1>
-            <div class="_ct_item">
-              <div class="_img">
+      <section className="section news-view">
+        <div className="container">
+          <div className="section-body text-justify">
+            <h1 className="section-title">Giá trị cốt lõi</h1>
+            <div className="_ct_item">
+              <div className="_img">
                 <img alt="" src="imgs/icons/tu-te.png" style={{ height: 150, width: 150 }} />
               </div>
 
-              <div class="_txt">
+              <div className="_txt">
                 Hạnh Phúc đề cao sự tử tế trong tư duy, lời nói và hành động, lấy đạo đức nghề nghiệp làm nền tảng cho mọi hoạt động sản xuất, kinh doanh và phục vụ cộng đồng.
               </div>
             </div>
 
-            <div class="_ct_item">
-              <div class="_img">
+            <div className="_ct_item">
+              <div className="_img">
                 <img alt="" src="imgs/icons/khach-hang.png" style={{ height: 150, width: 150 }} />
               </div>
 
-              <div class="_txt">
+              <div className="_txt">
                 Chúng tôi luôn đặt khách hàng và đối tác làm trung tâm, lấy sự an tâm và hài lòng của khách hàng làm thước đo cho chất lượng dịch vụ và hiệu quả hoạt động.
               </div>
             </div>
 
-            <div class="_ct_item">
-              <div class="_img">
+            <div className="_ct_item">
+              <div className="_img">
                 <img alt="" src="imgs/icons/cau-tien.png" style={{ height: 150, width: 150 }} />
               </div>
 
-              <div class="_txt">Hạnh Phúc không ngừng học hỏi, cải tiến quy trình và đổi mới phương pháp làm việc nhằm nâng cao chất lượng bữa ăn, dịch vụ và năng lực vận hành.</div>
+              <div className="_txt">Hạnh Phúc không ngừng học hỏi, cải tiến quy trình và đổi mới phương pháp làm việc nhằm nâng cao chất lượng bữa ăn, dịch vụ và năng lực vận hành.</div>
             </div>
 
-            <div class="_ct_item">
-              <div class="_img">
+            <div className="_ct_item">
+              <div className="_img">
                 <img alt="" src="imgs/icons/giu-loi-hua.png" style={{ height: 150, width: 150 }} />
               </div>
 
-              <div class="_txt">
+              <div className="_txt">
                 Giữ đúng cam kết với khách hàng, đối tác, người lao động và nhà cung cấp là nguyên tắc xuyên suốt, thể hiện uy tín và sự đáng tin cậy của Công ty.
               </div>
             </div>
 
-            <div class="_ct_item">
-              <div class="_img">
+            <div className="_ct_item">
+              <div className="_img">
                 <img alt="" src="imgs/icons/trach-nhiem.png" style={{ height: 150, width: 150 }} />
               </div>
 
-              <div class="_txt">
+              <div className="_txt">
                 Chúng tôi luôn chủ động nhận trách nhiệm trong công việc, không né tránh khó khăn, tập trung tìm giải pháp để hoàn thành tốt nhiệm vụ được giao.
               </div>
             </div>
 
-            <div class="_ct_item">
-              <div class="_img">
+            <div className="_ct_item">
+              <div className="_img">
                 <img alt="" src="imgs/icons/yeu-thuong.png" style={{ height: 150, width: 150 }} />
               </div>
 
-              <div class="_txt">Hạnh Phúc xây dựng môi trường làm việc gắn kết, tôn trọng và sẻ chia, coi tập thể như một gia đình và phối hợp cùng nhau vì mục tiêu chung.</div>
+              <div className="_txt">Hạnh Phúc xây dựng môi trường làm việc gắn kết, tôn trọng và sẻ chia, coi tập thể như một gia đình và phối hợp cùng nhau vì mục tiêu chung.</div>
             </div>
 
-            <div class="_ct_item">
-              <div class="_img">
+            <div className="_ct_item">
+              <div className="_img">
                 <img alt="" src="imgs/icons/trung-thuc.png" style={{ height: 150, width: 150 }} />
               </div>
 
-              <div class="_txt">
+              <div className="_txt">
                 Trung thực, minh bạch và ngay thẳng trong mọi hoạt động là giá trị cốt lõi mà toàn thể cán bộ, nhân viên Hạnh Phúc luôn tuân thủ và gìn giữ.
               </div>
             </div>
 
-            <ul class="list-unstyled other-post ">
+            <ul className="list-unstyled other-post ">
               <li>
                 <a href="about">Lời nói đầu</a>
               </li>
