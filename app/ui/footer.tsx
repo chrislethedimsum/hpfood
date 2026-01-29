@@ -7,9 +7,8 @@ export default function Footer() {
                         <div className="col col-01 site-info">
                             <div className="name">CÔNG TY TNHH DỊCH VỤ & THƯƠNG MẠI HẠNH PHÚC</div>
                             <div className="address">
-                            Điện thoại: <a href="tel:024 395 33343">024 395 33343</a><br />
-                            Hotline: <a href="tel:0917 32 5858">0917 32 5858</a><br />
-                            Email:<br />
+                            Điện thoại: <a href="tel:0912126648">091 212 6648</a><br />
+                            Email: info@hpfood.info<br />
                             Website: <a href="https://hpfood.info">https://hpfood.info</a>
                             </div>
                             <div className="icons">
@@ -21,18 +20,13 @@ export default function Footer() {
                             <a href="index.html" title="Suất căn công nghiệp uy tín"><img src="imgs/logo-h.png" alt="" /></a>
                             <div className="social-lnks">
                             Hạnh Phúc trên
-                            <a rel="nofollow noopener" href="https://www.facebook.com/Hạnh Phúc.com.vn" title="Hạnh Phúc trên Facbook"
-                                ><i className="bi bi-facebook"></i
-                            ></a>
-                            <a rel="nofollow noopener" href="https://twitter.com/suatancnHạnh Phúc" title="Hạnh Phúc trên Twitter"
-                                ><i className="bi bi-twitter"></i
-                            ></a>
+                            <a rel="nofollow noopener" href="https://www.facebook.com/hanhphuccompany" title="Hạnh Phúc trên Facbook"
+                                ><i className="bi bi-facebook"></i></a>
                             <a
                                 rel="nofollow noopener"
                                 href="https://www.youtube.com/channel/UCVR0HELNa7UPX8tIFJDYQmw/about"
                                 title="Hạnh Phúc trên Youtube"
-                                ><i className="bi bi-instagram"></i
-                            ></a>
+                                ><i className="bi bi-youtube"></i></a>
                             </div>
                         </div>
                         <div className="col col-03 places">

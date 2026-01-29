@@ -8,6 +8,7 @@ import Script from "next/script";
 import NavBar from "@/app/ui/navbar";
 import ImageSlider from "@/app/ui/imageslider";
 import Footer from "@/app/ui/footer";
+import "yet-another-react-lightbox/styles.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,7 +25,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Dịch vụ cung cấp suất ăn công nghiệp【Uy tín, Chất lượng ™】",
+  title: "Dịch vụ cung cấp suất ăn công nghiệp Hạnh Phúc【Uy tín, Chất lượng ™】",
   description: "Đơn vị cung cấp suất ăn công nghiệp chất lượng Hạnh Phúc , suất ăn trường học, suất ăn văn phòng, setup hệ thống bếp công nghiệp, cung cấp thực phẩm sạch Uy tín, Chất lượng, Giá thành hợp lý.",
 };
 

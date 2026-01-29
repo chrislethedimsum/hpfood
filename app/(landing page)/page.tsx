@@ -527,30 +527,6 @@ export default function Home() {
         </div>
       </div>
     </section>
-
-    <section className="mb-5 pt-5">
-      <div className="container">
-        <div className="section-body">
-          <div className="row align-items-center">
-            <div className="col-md-4">
-              <h2 className="section-title mb-3 text-uppercase">Hạnh Phúc - MANG ĐẾN NHỮNG BỮA ĂN HẠNH PHÚC</h2>
-
-              <p>
-                Là doanh nghiệp uy tín hàng đầu trong lĩnh vực Suất Ăn Công Nghiệp tại Việt Nam, chúng tôi nhận thức được việc đảm bảo vệ
-                sinh an toàn thực phẩm luôn là ưu tiên số 1 trong vận hành hệ thống.
-              </p>
-            </div>
-            <div className="col">
-              <div className="ratio ratio-16x9">
-                <div className="box-content video">
-                  <div className="youtube" data-embed="BfziQTiNPWQ"><div className="play-button"></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     </>
   );
 }

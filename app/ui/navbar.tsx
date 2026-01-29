@@ -8,7 +8,7 @@ export default function NavBar() {
     return(
         <nav className="navbar navbar-expand-lg navbar-dark sticky-top fixed" id="primary-navbar">
             <div className="container">
-                <Link className="navbar-brand" href="index.html" title="Suất ăn công nghiệp Hạnh Phúc">
+                <Link className="navbar-brand" href="/" title="Suất ăn công nghiệp Hạnh Phúc">
                 <Image src={logo} alt="Suất ăn công nghiệp Hạnh Phúc" />
                 </Link>
                 <button
@@ -25,7 +25,7 @@ export default function NavBar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" href="index.html">
+                    <Link className="nav-link active" aria-current="page" href="/">
                         Trang chủ
                     </Link>
                     </li>
@@ -33,7 +33,7 @@ export default function NavBar() {
                     <li className="nav-item dropdown lang-menu">
                     <Link
                         className="nav-link dropdown-toggle text-uppercase"
-                        href="vi/su-khac-biet#"
+                        href="about#"
                         id="navbarDropdown"
                         role="button"
                         data-bs-toggle="dropdown"
@@ -44,34 +44,34 @@ export default function NavBar() {
                     </Link>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li>
-                        <Link className="dropdown-item" href="vi/gioi-thieu" title="Lời nói đầu">
+                        <Link className="dropdown-item" href="about" title="Lời nói đầu">
                             Lời nói đầu
                         </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" href="https://Hạnh Phúc.com.vn/vi/gioi-thieu/Tam-nhin-su-menh.html" title="Tầm nhìn sứ mệnh">
+                        <Link className="dropdown-item" href="vision" title="Tầm nhìn sứ mệnh">
                             Tầm nhìn sứ mệnh
                         </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" href="https://Hạnh Phúc.com.vn/vi/gioi-thieu/Gia-tri-cot-loi.html" title="Giá trị cốt lõi">
+                        <Link className="dropdown-item" href="value" title="Giá trị cốt lõi">
                             Giá trị cốt lõi
                         </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" href="https://Hạnh Phúc.com.vn/vi/gioi-thieu/So-do-to-chuc.html" title="Sơ đồ tổ chức">
+                        <Link className="dropdown-item" href="diagram" title="Sơ đồ tổ chức">
                             Sơ đồ tổ chức
                         </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" href="https://Hạnh Phúc.com.vn/vi/gioi-thieu/Quy-mo-Hạnh Phúc.html" title="Quy mô Hạnh Phúc">
+                        <Link className="dropdown-item" href="scale" title="Quy mô Hạnh Phúc">
                             Quy mô HẠNH PHÚC
                         </Link>
                         </li>
                         <li>
                         <Link
                             className="dropdown-item"
-                            href="https://Hạnh Phúc.com.vn/vi/gioi-thieu/Chung-chi-chat-luong-bao-hiem.html"
+                            href="cert"
                             title="Chứng chỉ chất lượng, bảo hiểm"
                         >
                             Chứng chỉ chất lượng, bảo hiểm
@@ -83,7 +83,7 @@ export default function NavBar() {
                     <li className="nav-item dropdown lang-menu">
                     <Link
                         className="nav-link dropdown-toggle text-uppercase"
-                        href="vi/dich-vu"
+                        href="#"
                         id="navbarDropdown"
                         role="button"
                         data-bs-toggle="dropdown"
@@ -93,23 +93,13 @@ export default function NavBar() {
                     </Link>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li>
-                        <Link className="dropdown-item" href="vi/dich-vu" title="Cung cấp suất ăn công nghiệp">
+                        <Link className="dropdown-item" href="industrial-catering-service" title="Cung cấp suất ăn công nghiệp">
                             Cung cấp suất ăn công nghiệp
                         </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" href="vi/dich-vu/Dich-vu-nha-hang.html" title="Dịch vụ nhà hàng">
-                            Dịch vụ nhà hàng
-                        </Link>
-                        </li>
-                        <li>
-                        <Link className="dropdown-item" href="vi/dich-vu/Dich-vu-cung-cap-thuc-pham.html" title="Dịch vụ cung cấp thực phẩm">
+                        <Link className="dropdown-item" href="food-delivery-service" title="Dịch vụ cung cấp thực phẩm">
                             Dịch vụ cung cấp thực phẩm
-                        </Link>
-                        </li>
-                        <li>
-                        <Link className="dropdown-item" href="vi/dich-vu/Setup-he-thong-bep-cong-nghiep.html" title="Setup hệ thống bếp công nghiệp">
-                            Setup hệ thống bếp công nghiệp
                         </Link>
                         </li>
                     </ul>

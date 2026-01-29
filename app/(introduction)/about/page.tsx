@@ -6,7 +6,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Về Chúng Tôi - Hạnh Phúc Food",
+  title: "Về Chúng Tôi - Hạnh Phúc",
   description: "Đơn vị cung cấp suất ăn công nghiệp chất lượng Hạnh Phúc , suất ăn trường học, suất ăn văn phòng, setup hệ thống bếp công nghiệp, cung cấp thực phẩm sạch Uy tín, Chất lượng, Giá thành hợp lý.",
 };
 
@@ -22,11 +22,11 @@ export default function AboutUs() {
                         <p>Hiện nay, Hạnh Phúc là đối tác cung cấp suất ăn cho nhiều <b>trường học cấp 1, cấp 2</b> trên địa bàn như <b>Khương Đình, Thanh Xuân Nam, Phan Đình Giót, Phương Liệt, Lý Nam Đế, Kim Giang</b>, đồng thời phục vụ hàng chục khách hàng thân thiết trong lĩnh vực nhà hàng và catering. Mỗi năm, chúng tôi cung cấp hơn <b>4.000 suất ăn</b>, luôn nhận được sự tin tưởng và đánh giá tích cực từ phía nhà trường, phụ huynh và đối tác.</p>
                         <p>Lấy <b>chất lượng – an toàn – trách nhiệm</b> làm kim chỉ nam, Hạnh Phúc xây dựng quy trình kiểm soát chặt chẽ từ khâu lựa chọn nguyên liệu, chế biến đến phục vụ, nhằm mang đến những bữa ăn <b>đầy đủ dinh dưỡng, an toàn và phù hợp với từng độ tuổi</b>. Chúng tôi cam kết không ngừng hoàn thiện dịch vụ để trở thành <b>đối tác tin cậy và lâu dài</b> của Quý khách hàng.</p>
                         <ul className="list-unstyled other-post">
-                            <li><a href="https://stavi.com.vn/vi/gioi-thieu/Tam-nhin-su-menh.html">Tầm nhìn sứ mệnh</a></li>
-                            <li><a href="https://stavi.com.vn/vi/gioi-thieu/Gia-tri-cot-loi.html">Giá trị cốt lõi</a></li>
-                            <li><a href="https://stavi.com.vn/vi/gioi-thieu/So-do-to-chuc.html">Sơ đồ tổ chức</a></li>
-                            <li><a href="https://stavi.com.vn/vi/gioi-thieu/Quy-mo-STAVI.html">Quy mô Hạnh Phúc</a></li>
-                            <li><a href="https://stavi.com.vn/vi/gioi-thieu/Chung-chi-chat-luong-bao-hiem.html">Chứng chỉ chất lượng, bảo hiểm</a></li>
+                            <li><a href="vision">Tầm nhìn sứ mệnh</a></li>
+                            <li><a href="value">Giá trị cốt lõi</a></li>
+                            <li><a href="diagram">Sơ đồ tổ chức</a></li>
+                            <li><a href="scale">Quy mô Hạnh Phúc</a></li>
+                            <li><a href="cert">Chứng chỉ chất lượng, bảo hiểm</a></li>
                         </ul>
                     </div>
                 </div>
