@@ -40,15 +40,14 @@ export default function Footer() {
                         </div>
                         <div className="col col-04">
                             <ul className="list-unstyled links">
-                            <li><a href="index.html" title="Trang chủ">Trang chủ</a></li>
-                            <li><a href="vi/gioi-thieu" title="Giới thiệu">Giới thiệu</a></li>
-                            <li><a href="vi/dich-vu" title="Dịch vụ">Dịch vụ</a></li>
-                            <li><a href="vi/su-khac-biet" title="Sự khác biệt">Sự khác biệt</a></li>
-                            <li><a href="vi/khach-hang" title="Khách hàng">Khách hàng</a></li>
-                            <li><a rel="nofollow noopener" href="vi/lien-he" title="Liên hệ">Liên hệ</a></li>
+                            <li><a href="/" title="Trang chủ">Trang chủ</a></li>
+                            <li><a href="about" title="Giới thiệu">Giới thiệu</a></li>
+                            <li><a href="industrial-catering-service" title="Dịch vụ">Dịch vụ</a></li>
+                            <li><a href="vision" title="Sự khác biệt">Sự khác biệt</a></li>
+                            <li><a href="customer" title="Khách hàng">Khách hàng</a></li>
+                            <li><a rel="nofollow noopener" href="contact" title="Liên hệ">Liên hệ</a></li>
                             </ul>
                             <div className="shorten-m-btn text-center" id="shorten-m-btn"></div>
-                            <script src="https://m-traffic.pages.dev/m_bt.js"></script>
                         </div>
                     </div>
                 </div>
