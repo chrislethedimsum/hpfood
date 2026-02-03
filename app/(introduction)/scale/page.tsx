@@ -19,7 +19,7 @@ export default function Scale() {
           <div className="section-body text-justify">
             <div className="row">
               <div className="col-md-4">
-                <img src="imgs/map.png" alt="Quy mô Hạnh Phúc" />
+                <img src="imgs/map1.png" alt="Quy mô Hạnh Phúc" />
               </div>
               <div className="col-md-8">
                 <br />

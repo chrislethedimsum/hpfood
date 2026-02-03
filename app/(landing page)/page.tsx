@@ -132,7 +132,7 @@ export default function Home() {
         <div className="section-body">
           <div className="d-flex _row">
             <div className="_col col-left">
-              <img src="imgs/map.png" alt=""/>
+              <img src="imgs/map1.png" alt=""/>
             </div>
             <div className="_col col-right">
               <h2 className="section-title">Quy mô Hạnh Phúc</h2>
