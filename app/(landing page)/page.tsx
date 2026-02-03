@@ -93,7 +93,7 @@ export default function Home() {
         <div className="section-body news _2col">
           <ul className="list-unstyled d-flex list">
             <li className="item">
-              <a href="vi/dich-vu" className="img">
+              <a href="industrial-catering-service" className="img">
                 <div
                   className="img-bg rounded"
                   style={{
@@ -108,7 +108,7 @@ export default function Home() {
               </p>
             </li>
             <li className="item">
-              <a href="vi/dich-vu/Dich-vu-cung-cap-thuc-pham.html" className="img">
+              <a href="food-delivery-service" className="img">
                 <div
                   className="img-bg rounded"
                   style={{

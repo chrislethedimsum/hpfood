@@ -16,6 +16,7 @@ export default function Diagram() {
     <MainLayout>
       <section className="section recruitment">
         <div className="container">
+          
           <header className="section-header">
             <h1>Tuyển dụng Nhân viên Bếp</h1>
             <p>Công ty TNHH Dịch vụ &amp; Thương mại Hạnh Phúc</p>

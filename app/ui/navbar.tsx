@@ -120,7 +120,8 @@ export default function NavBar() {
                     </Link>
                     </li>
                 </ul>
-                <div className="d-flex">
+                
+                {/* <div className="d-flex">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item dropdown lang-menu">
                         <Link
@@ -151,7 +152,7 @@ export default function NavBar() {
                         </ul>
                     </li>
                     </ul>
-                </div>
+                </div> */}
                 </div>
             </div>
         </nav>
