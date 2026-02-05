@@ -1,8 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/public/imgs/logo-h.png';
-import flagvi from '@/public/imgs/icons/flags/vi.svg';
-import flagen from '@/public/imgs/icons/flags/en.svg';
 
 export default function NavBar() {
     return(
