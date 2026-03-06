@@ -151,6 +151,40 @@ img {
       padding-bottom: 150%;
       margin-left: -75%;
       margin-top: -75%; }
+
+/* submenu */
+.dropdown-submenu {
+  position: relative;
+}
+
+/* Ẩn menu con */
+.dropdown-submenu .dropdown-menu {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+/* Chỉ hiện khi hover đúng submenu */
+.dropdown-submenu:hover > .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropdown-submenu > .dropdown-toggle::after {
+  float: right;
+  margin-top: 8px;
+  transform: rotate(-90deg);
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
     #primary-navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
       -webkit-border-radius: 2px;
       -moz-border-radius: 2px;
@@ -226,7 +260,7 @@ img {
   #primary-navbar .navbar-brand img {
     max-height: 50px;width: auto!important; } }
 @media all and (min-width: 992px) {
-  #primary-navbar .nav-item:hover .dropdown-menu {
+  #primary-navbar .nav-item:hover > .dropdown-menu {
     margin-top: 0 !important;
     margin-left: -1px;
     visibility: visible !important;
@@ -255,6 +289,8 @@ img {
       font-size: 2rem; }
     .section.news-view .section-body h3 {
       font-size: 1.6rem; }
+    .section.news-view .section-body h4 {
+      font-size: 1.2rem; }
     .section.news-view .section-body img {
       height: auto !important;
       max-width: 100%;

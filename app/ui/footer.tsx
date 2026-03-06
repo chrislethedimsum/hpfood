@@ -12,12 +12,12 @@ export default function Footer() {
                             Website: <a href="https://hpfood.info">https://hpfood.info</a>
                             </div>
                             <div className="icons">
-                            <img src="imgs/icons/iso.png" alt="" />
-                            <img src="imgs/icons/haccp.png" alt="" />
+                            <img src="/imgs/icons/iso.png" alt="" />
+                            <img src="/imgs/icons/haccp.png" alt="" />
                             </div>
                         </div>
                         <div className="col col-02">
-                            <a href="index.html" title="Suất căn công nghiệp uy tín"><img src="imgs/logo-h.png" alt="" /></a>
+                            <a href="index.html" title="Suất căn công nghiệp uy tín"><img src="/imgs/logo-h.png" alt="" /></a>
                             <div className="social-lnks">
                             Hạnh Phúc trên
                             <a rel="nofollow noopener" href="https://www.facebook.com/hanhphuccompany" title="Hạnh Phúc trên Facbook"
@@ -41,10 +41,10 @@ export default function Footer() {
                         <div className="col col-04">
                             <ul className="list-unstyled links">
                             <li><a href="/" title="Trang chủ">Trang chủ</a></li>
-                            <li><a href="about" title="Giới thiệu">Giới thiệu</a></li>
-                            <li><a href="industrial-catering-service" title="Dịch vụ">Dịch vụ</a></li>
-                            <li><a href="vision" title="Sự khác biệt">Sự khác biệt</a></li>
-                            <li><a href="customer" title="Khách hàng">Khách hàng</a></li>
+                            <li><a href="/about" title="Giới thiệu">Giới thiệu</a></li>
+                            <li><a href="/industrial-catering-service" title="Dịch vụ">Dịch vụ</a></li>
+                            <li><a href="/vision" title="Sự khác biệt">Sự khác biệt</a></li>
+                            <li><a href="/customer" title="Khách hàng">Khách hàng</a></li>
                             <li><a rel="nofollow noopener" href="contact" title="Liên hệ">Liên hệ</a></li>
                             </ul>
                             <div className="shorten-m-btn text-center" id="shorten-m-btn"></div>
@@ -88,8 +88,8 @@ export default function Footer() {
                 </a>
             </div>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script src="bootstrap-5.1.1/js/bootstrap.min.js"></script>
-            <script src="libs/js-animated-counter/multi-animated-counter.js"></script>
+            <script src="/bootstrap-5.1.1/js/bootstrap.min.js"></script>
+            <script src="/libs/js-animated-counter/multi-animated-counter.js"></script>
         </>
     );
 }

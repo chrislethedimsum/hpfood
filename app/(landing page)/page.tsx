@@ -120,9 +120,6 @@ export default function Home() {
               <p className="news-desc">Dịch vụ cung cấp thực phẩm số 1, uy tín, chất lượng Hạnh Phúc</p>
             </li>
           </ul>
-          <div className="text-center _btn">
-            <a href="vi/dich-vu" className="btn btn-primary btn-lg">Xem thêm</a>
-          </div>
         </div>
       </div>
     </section>

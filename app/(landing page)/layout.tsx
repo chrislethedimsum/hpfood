@@ -41,11 +41,19 @@ export default function RootLayout({
             src="https://code.jquery.com/jquery-3.6.0.min.js"
             strategy="beforeInteractive"
         />
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/logo/Hạnh Phúc-logo-180.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/logo/Hạnh Phúc-logo-32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/logo/Hạnh Phúc-logo-16.png" />
-        <link rel="shortcut icon" href="assets/imgs/logo/Hạnh Phúc-logo-142.png" />
-        <link rel="apple-touch-icon" href="assets/imgs/logo/Hạnh Phúc-logo-142.png" />
+        <Script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            strategy="beforeInteractive"
+        />
+        <Script
+            src="/bootstrap-5.1.1/js/bootstrap.min.js"
+            strategy="afterInteractive"
+        />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/imgs/logo/Hạnh Phúc-logo-180.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/imgs/logo/Hạnh Phúc-logo-32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/imgs/logo/Hạnh Phúc-logo-16.png" />
+        <link rel="shortcut icon" href="/assets/imgs/logo/Hạnh Phúc-logo-142.png" />
+        <link rel="apple-touch-icon" href="/assets/imgs/logo/Hạnh Phúc-logo-142.png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
