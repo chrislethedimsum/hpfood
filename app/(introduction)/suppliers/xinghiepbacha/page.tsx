@@ -6,7 +6,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Hồ sơ đối tác cung cấp - Giò/chả",
+  title: "Hồ sơ đối tác cung cấp - Trứng",
   description:
     "Đơn vị cung cấp suất ăn công nghiệp chất lượng Hạnh Phúc , suất ăn trường học, suất ăn văn phòng, setup hệ thống bếp công nghiệp, cung cấp thực phẩm sạch Uy tín, Chất lượng, Giá thành hợp lý.",
 };
@@ -17,8 +17,8 @@ export default function Cert() {
       <section className="section news-view">
         <div className="container">
           <div className="section-body text-justify">
-            <h1 className="section-title">Hồ sơ đối tác cung cấp - Giò/chả</h1>
-            <iframe className="rounded" src="https://drive.google.com/file/d/1L4rgtdmY4lGIWk2BaimWU9g6ChG4iJY_/preview" width="100%" height="1000"></iframe>
+            <h1 className="section-title">Hồ sơ đối tác cung cấp - Trứng</h1>
+            <iframe className="rounded" src="https://drive.google.com/file/d/17nizmcBVsIVQ0q-aEYveLUeWz1FmKFYb/view?usp=sharing" width="100%" height="1000"></iframe>
             <ul className="list-unstyled other-post">
               <li>
                 <a href="vision">Tầm nhìn sứ mệnh</a>

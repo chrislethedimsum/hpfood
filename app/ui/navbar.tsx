@@ -120,7 +120,7 @@ export default function NavBar() {
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" href="/suppliers/giochalon">
+                      <Link className="dropdown-item" href="/suppliers/giocha">
                         Giò, chả
                       </Link>
                     </li>
@@ -137,6 +137,11 @@ export default function NavBar() {
                     <li>
                       <Link className="dropdown-item" href="/suppliers/trung">
                         Trứng
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" href="/suppliers/xinghiepbacha">
+                        Xí nghiệp Bắc Hà
                       </Link>
                     </li>
                   </ul>
