@@ -18,7 +18,7 @@ export default function Cert() {
         <div className="container">
           <div className="section-body text-justify">
             <h1 className="section-title">Hồ sơ đối tác cung cấp - Trứng</h1>
-            <iframe className="rounded" src="https://drive.google.com/file/d/1DoffJo3-YCfgdoUq1YNppgnrjjzWCqYv/preview" width="100%" height="1000"></iframe>
+            <iframe className="rounded" src="https://drive.google.com/file/d/1w9zbbWU8iIJ6UjUDfygCNw3aNRt_XS3m/preview" width="100%" height="1000"></iframe>
             <ul className="list-unstyled other-post">
               <li>
                 <a href="vision">Tầm nhìn sứ mệnh</a>
